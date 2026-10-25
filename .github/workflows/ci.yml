@@ -6,17 +6,5 @@ jobs:
   first-jobs:
     runs-on: ubuntu-latest
     steps:
-      -name: My first git actions
-      run: echo "Hello World!"  
-
-
-name: Github Actions
-
-on: push
-
-jobs:
-  first-jobs:
-    runs-on: ubuntu-latest
-    steps:
       - name: My first git actions
         run: echo "Hello World!"
