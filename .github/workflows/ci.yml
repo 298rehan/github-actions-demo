@@ -1,10 +1,11 @@
-name: Github Actions
+name: Git Actions
 
 on: push
 
 jobs:
   first-jobs:
-    runs-on: ubuntu-latest
+    runs on: ubuntu-latest
+
     steps:
-      - name: My first git actions
-        run: echo "Hello World!"
+      - name: My Latest Github Actions
+        run: echo "Hello World"
