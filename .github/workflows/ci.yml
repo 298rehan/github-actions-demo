@@ -4,7 +4,7 @@ on: push
 
 jobs:
   first-jobs:
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: My Latest Github Actions
